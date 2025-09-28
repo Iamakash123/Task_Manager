@@ -1,0 +1,13 @@
+/* frontend/styles.css - minimal styles */
+body { font-family: Arial, sans-serif; background:#f6f6f8; margin:0; padding:0; }
+.container { max-width:640px; margin:40px auto; background:white; padding:20px; border-radius:6px; box-shadow:0 4px 12px rgba(0,0,0,0.05); }
+h1 { margin-top:0; }
+form { display:flex; gap:8px; margin-bottom:16px; }
+input#task-input { flex:1; padding:8px; border:1px solid #ddd; border-radius:4px; }
+button { padding:8px 12px; border:none; background:#1976d2; color:white; border-radius:4px; cursor:pointer; }
+ul { list-style:none; padding:0; margin:0; }
+li { display:flex; justify-content:space-between; padding:8px 10px; border-bottom:1px solid #eee; align-items:center; }
+li.completed .title { text-decoration:line-through; color:#888; }
+.actions button { margin-left:8px; padding:6px 8px; border-radius:4px; border:none; cursor:pointer; }
+.actions .toggle { background:#2e7d32; color:white; }
+.actions .delete { background:#c62828; color:white; }

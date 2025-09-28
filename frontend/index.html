@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <form id="task-form">
+      <input id="task-input" placeholder="Enter new task" required />
+      <button type="submit">Add</button>
+    </form>
+    <ul id="tasks"></ul>
+  </div>
+  <script>
+    const API_URL = 'http://localhost:5000/api/tasks';
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
