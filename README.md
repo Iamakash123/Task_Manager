@@ -19,8 +19,10 @@ Backend: Node.js, Express, MongoDB (Mongoose)
 Frontend: HTML, CSS, JavaScript
 
 Project Structure
-/Task_Manager
-│
+
+=======
+Task_Manager/
+>>>>>>> 2536bee (Update README with polished content)
 ├── backend/           # Node.js + Express API
 │   ├── models/        # Mongoose models
 │   ├── routes/        # API routes
@@ -42,7 +44,10 @@ Node.js & npm
 MongoDB (local or MongoDB Atlas
 )
 
-1. Backend Setup
+
+=======
+Backend Setup
+>>>>>>> 2536bee (Update README with polished content)
 cd backend
 cp .env.example .env   # set MONGO_URI
 npm install
@@ -51,13 +56,19 @@ npm run dev            # start development server
 
 Server runs on http://localhost:5000
 
-2. Frontend Setup
+
+=======
+Frontend Setup
+>>>>>>> 2536bee (Update README with polished content)
 
 Open frontend/index.html in a browser
 
 Update API_URL in frontend/app.js if your backend runs on a different host/port
 
-3. Test API Endpoints (Optional)
+
+=======
+Test API Endpoints (Optional)
+>>>>>>> 2536bee (Update README with polished content)
 # Get all tasks
 curl http://localhost:5000/api/tasks
 
@@ -66,9 +77,12 @@ curl -X POST -H "Content-Type: application/json" -d '{"title": "New Task"}' http
 
 What I Learned
 
-Implemented a full-stack application with Node.js + Express + MongoDB
 
-Practiced CRUD operations and API design
+=======
+Built a full-stack application with Node.js + Express + MongoDB
+
+Implemented CRUD operations and REST API design
+>>>>>>> 2536bee (Update README with polished content)
 
 Connected frontend with backend using fetch()
 
@@ -78,4 +92,7 @@ Backend: Render, Heroku, or Railway
 
 Frontend: GitHub Pages, Netlify, or Vercel
 
+
+=======
 Database: MongoDB Atlas for cloud hosting
+>>>>>>> 2536bee (Update README with polished content)
